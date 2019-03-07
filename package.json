@@ -1,0 +1,28 @@
+{
+  "name": "mindera-card-slider-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-api": "json-server --port 3001 --watch --static none data/db.json"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "jsdom-global": "^3.0.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-slick": "^0.23.2",
+    "react-test-renderer": "^16.8.3",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.12.2",
+    "react-scripts": "^1.1.4",
+    "svg-sprite-loader": "^4.1.3"
+  }
+}

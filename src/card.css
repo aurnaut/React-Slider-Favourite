@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+.st0{fill:#E792FC;}
+.st1{fill:#58595B;}
+.st2{fill:#FED02F;}
+.st3{fill:#FFFFFF;}
+.st4{fill: #198E20;}
+.st5{fill: #198E20;}
+
+.slider {
+    max-width: calc((308 * 3px) + 79px);
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.slider-card {
+    max-width: 308px;
+    background-color: #fff;
+    margin: 0 13px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.slick-track {
+    display: flex !important;
+  }
+  
+  .slick-slide {
+    height: auto;
+  }
+
+.slider-content-wrap {
+    padding: 19px;
+}
+
+.slider-card:nth-child(2) {
+    margin-left: 26px;
+}
+
+.slider-card:last-child {
+    margin-right: 26px;
+}
+
+.slider-card  img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.slider-controls {
+    text-align: center;
+    margin-top: 26px;
+}
+
+.svg-mindera-avatar {
+    width: 55.71px;
+    height: 55.71px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+a.slider-card {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.title-subtitle-wrap {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slide-title {
+    color: #3a3a3a;
+    font-size: 23px;
+    font-weight: bold;
+    display: block;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.slide-subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    color: #adadad;
+    text-transform: uppercase;
+}
+
+.slide-description {
+    display: block;
+    font-size: 12px;
+    color: #3a3a3a;
+    line-height: 1.583;
+    margin-top: 19px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+    line-height: 16px;     /* fallback */
+    max-height: 48px;      /* fallback */ 
+}
+
+.outline-heart-icon,
+.full-heart-icon {
+    width: 22.12px;
+    height: 22.11px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.control-left,
+.control-right {
+    width: 12.45px;
+    height: 20.57px;
+}
+
+.button {
+    width: 40px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.heart-icon {
+    position: relative;
+    height: 30px;
+    display: block;
+    margin-bottom: 19px;
+}
+
+.heart-icon svg {
+    position: absolute;
+    z-index: 999;
+}
+
+@media only screen and (max-width: 1020px) {
+    .slider-card {
+        max-width: auto;
+        margin: 0 0;
+    }
+
+    .slider-card:nth-child(2) {
+        margin-left: 0;
+    }
+    
+    .slider-card:last-child {
+        margin-right: 0;
+    }
+
+    .slick-slide {
+        text-align: center;
+    }
+}
